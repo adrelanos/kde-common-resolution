@@ -1,0 +1,7 @@
+## KVM
+[Screen_0_Output_default]
+Rect=0,0,1366,768
+
+## VirtualBox
+[Screen_0_Output_VBOX0]
+Rect=0,0,1366,768

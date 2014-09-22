@@ -1,0 +1,21 @@
+## This file is part of Whonix.
+## Copyright (C) 2012 - 2014 Patrick Schleizer <adrelanos@riseup.net>
+## See the file COPYING for copying conditions.
+
+Source: kde-common-resolution
+Section: misc
+Priority: optional
+Maintainer: Patrick Schleizer <adrelanos@riseup.net>
+Build-Depends: debhelper (>= 8), faketime
+Homepage: https://github.com/Whonix/kde-common-resolution
+Vcs-Browser: https://github.com/Whonix/kde-common-resolution
+Vcs-Git: https://github.com/Whonix/kde-common-resolution.git
+Standards-Version: 3.9.4
+
+Package: kde-common-resolution
+Architecture: all
+Depends: ${misc:Depends}
+Description: Sets resolution to 1366x768 in KVM and VirtualBox
+ This package only takes effect for newly created user accounts. Not for
+ existing user accounts. This package is most useful to help Linux distribution
+ maintainers setting divergent defaults.
