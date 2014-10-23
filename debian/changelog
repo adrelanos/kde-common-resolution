@@ -1,3 +1,9 @@
+kde-common-resolution (3:0.4-1) unstable; urgency=low
+
+  * New upstream version.
+
+ -- Patrick Schleizer <adrelanos@riseup.net>  Thu, 23 Oct 2014 22:38:46 +0000
+
 kde-common-resolution (3:0.3-1) unstable; urgency=low
 
   * New upstream version.
