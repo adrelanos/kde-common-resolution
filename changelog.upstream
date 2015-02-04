@@ -1,0 +1,60 @@
+commit 52d8a55f7c2fca74fb4c067737394f8ba1e6df6c
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Feb 4 00:40:39 2015 +0000
+
+    updated makefile generic to version 1.3
+
+commit 1962211325d33abeacfe98ad46e824a7cba0f8da
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Feb 3 23:58:44 2015 +0000
+
+    Added creation of upstream changelog to debian/rules
+
+commit bfa63968ffddf8bfcde6b98da5ad1d4f62ab088b
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Jan 7 19:33:45 2015 +0000
+
+    bumped compat from 8 to 9
+
+commit 008eaad5473f9cd15a1fc34023af5fdf3a2a9f1d
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Dec 5 19:01:13 2014 +0000
+
+    updated generic makefile
+
+commit 5b2f5c7df79e31353602d4a52caa586a091eb73c
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Oct 28 22:35:22 2014 +0000
+
+    makefile: refactoring, avoid using IFS
+
+commit 7e695034aac81200c085572b385f3a48b0d3a083
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Oct 25 01:58:51 2014 +0000
+
+    makefile:
+    - make debdist; make undebdist
+    - cleanup
+    - refactoring
+
+commit 58c7f1e7835a7c6fff67341bfe57eeb8a9776ae7
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Oct 23 22:43:02 2014 +0000
+
+    makefile:
+    - new target "make undist", which deletes the upstream tarball
+    - $DISTDIR variable for make (un)dist, which defaults to ".." and can be used to create upstream tarballs in arbitrary locations
+    - refactoring, all function names and global variables now start with "make_" to make the script `source`ing friendly
+    - made `source`able
+
+commit eaec198362f59f2094e0541f7cfde1ed77cccf6d
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Oct 13 12:36:53 2014 +0000
+
+    readme
+
+commit d60267d5011d9ec1b65654255af91c95d0497048
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Sep 22 15:00:41 2014 +0000
+
+    initial implementation
