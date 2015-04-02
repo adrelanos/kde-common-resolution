@@ -6,7 +6,7 @@ Source: kde-common-resolution
 Section: misc
 Priority: optional
 Maintainer: Patrick Schleizer <adrelanos@riseup.net>
-Build-Depends: debhelper (>= 9), faketime
+Build-Depends: debhelper (>= 9), faketime, genmkfile
 Homepage: https://github.com/Whonix/kde-common-resolution
 Vcs-Browser: https://github.com/Whonix/kde-common-resolution
 Vcs-Git: https://github.com/Whonix/kde-common-resolution.git
