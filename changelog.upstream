@@ -1,3 +1,21 @@
+commit 9536b3d2e1c07e2616a42531dcc8271eb8475ea5
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Apr 2 18:41:14 2015 +0000
+
+    added genmkfile to Build-Depends
+
+commit 09f4d94c9b4071c67a5013129a47794ef989fd64
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Apr 2 17:24:35 2015 +0000
+
+    updated makefile generic to version 1.5
+
+commit d1d1cc70f36f73ed755afbb4f89c6fc7cc4f2dd2
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Mar 24 17:36:30 2015 +0000
+
+    bumped changelog version
+
 commit e8187837392f0666a43663de3eebfff4585ecea1
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Tue Mar 24 17:26:35 2015 +0000
